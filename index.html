@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Majid Rizq General Hardware Ltd – Strength You Can Trust</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<!-- LOADER -->
+<div id="loader">
+<div class="loader-logo">Majid Rizq</div>
+<div class="loader-sub">General Hardware Ltd</div>
+<div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+<!-- TOPBAR -->
+<div class="topbar">
+<div class="topbar-left">
+<span><i class="fas fa-phone"></i><a href="tel:+256700000000">+256 753809585</a></span>
+<span><i class="fas fa-envelope"></i><a href="mailto:info@majidrizq.com">ssalimajid58@gmail.com</a></span>
+<span><i class="fas fa-map-marker-alt"></i>Kampala, Uganda</span>
+</div>
+<div class="topbar-right">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/256700000000" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+</div>
+</div>
+<!-- NAVBAR -->
+<nav id="navbar">
+<a class="nav-logo" href="#home">
+<img alt="Majid Rizq" onerror="this.style.display='none'" src="logo_transparent.png"/>
+<div class="nav-logo-text">
+<span>Majid Rizq</span>
+<small>General Hardware Ltd</small>
+</div>
+</a>
+<button aria-label="Toggle menu" class="hamburger" id="hamburger">
+<span></span><span></span><span></span>
+</button>
+<ul class="nav-links" id="nav-links">
+<li><a class="active" href="#home">Home</a></li>
+<li>
+<a href="#products">Products <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown">
+<a href="#products" onclick="filterProducts('steel',null)">Structural Steel</a>
+<a href="#products" onclick="filterProducts('hollow',null)">Hollow Sections</a>
+<a href="#products" onclick="filterProducts('wire',null)">Wire Products</a>
+<a href="#products" onclick="filterProducts('plates',null)">Steel Plates</a>
+<a href="#products" onclick="filterProducts('all',null)">View All Products</a>
+</div>
+</li>
+<li><a href="#about">Our Story</a></li>
+<li><a href="#sustainability">Sustainability</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#careers">Careers</a></li>
+<li><a href="#showroom">Showroom</a></li>
+<li><a href="#contact">Find Us</a></li>
+</ul>
+</nav>
+<!-- HERO -->
+<section id="home">
+<div class="hero-bg"></div>
+<div class="hero-particles" id="particles"></div>
+<div class="hero-grid-lines"></div>
+<div class="hero-glow"></div>
+<div class="hero-content">
+<div class="hero-eyebrow">
+<div class="eyebrow-line"></div>
+<span class="eyebrow-text">Trusted Hardware Since 2005</span>
+</div>
+<h1 class="hero-title">
+<span class="line">Quality Steel &</span>
+<span class="line"><em>Hardware</em></span>
+<span class="line stroke-text">Solutions</span>
+</h1>
+<p class="hero-desc">Majid Rizq General Hardware Ltd delivers world-class steel, roofing, and construction materials that strengthen homes, industries, and communities across Uganda and East Africa.</p>
+<div class="hero-ctas">
+<a class="btn btn-gold" href="#products"><i class="fas fa-th-large"></i> Explore Products</a>
+<a class="btn btn-outline" href="#contact"><i class="fas fa-phone"></i> Get In Touch</a>
+</div>
+</div>
+<div class="hero-stats">
+<div class="stat-item"><strong>20<span style="color:var(--gold);font-size:2rem">+</span></strong><span>Years Experience</span></div>
+<div class="stat-item"><strong>74<span style="color:var(--gold);font-size:2rem">+</span></strong><span>Product Lines</span></div>
+<div class="stat-item"><strong>10K<span style="color:var(--gold);font-size:2rem">+</span></strong><span>Happy Clients</span></div>
+</div>
+<div class="hero-scroll">
+<div class="scroll-line"></div>
+<span>Scroll to explore</span>
+</div>
+</section>
+<!-- ABOUT -->
+<section id="about">
+<div class="section-inner about-grid">
+<div class="about-visual reveal-left">
+<div class="about-frame"></div>
+<div class="about-img-wrap">
+<img alt="Our Story" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80"/>
+</div>
+<div class="about-badge reveal-scale stagger-3">
+<strong>20+</strong>
+<span>Years of Trust</span>
+</div>
+</div>
+<div class="about-text reveal-right">
+<div class="section-eyebrow"><div class="s-line"></div><span class="section-tag">Our Story</span></div>
+<h2 class="section-title">Built on Trust,<br/><span>Driven by Quality</span></h2>
+<div class="gold-divider"><i class="fas fa-star"></i></div>
+<p class="section-desc">Majid Rizq General Hardware Ltd has been a cornerstone of Uganda's construction and steel industry for over two decades. Founded on principles of quality, reliability, and customer service, we have grown into one of the most trusted hardware suppliers in East Africa.</p>
+<p class="section-desc" style="margin-top:14px">From roofing sheets to structural steel, our comprehensive product range — 74 product lines — ensures builders, contractors, and homeowners find everything they need, backed by expert advice.</p>
+<div class="features-grid">
+<div class="feature-card reveal stagger-1"><i class="fas fa-medal"></i><h4>Premium Quality</h4><p>ISO-certified materials meeting international standards</p></div>
+<div class="feature-card reveal stagger-2"><i class="fas fa-truck"></i><h4>Fast Delivery</h4><p>Prompt delivery across Uganda and East Africa</p></div>
+<div class="feature-card reveal stagger-3"><i class="fas fa-users"></i><h4>Expert Team</h4><p>Knowledgeable staff ready to assist you</p></div>
+<div class="feature-card reveal stagger-4"><i class="fas fa-shield-alt"></i><h4>After-Sales Support</h4><p>We stand behind every product we sell</p></div>
+</div>
+</div>
+</div>
+</section>
+<!-- PRODUCTS -->
+<section id="products">
+<div class="section-inner">
+<div class="products-header reveal">
+<div>
+<div class="section-eyebrow"><div class="s-line"></div><span class="section-tag">What We Offer</span></div>
+<h2 class="section-title">Our Range of <span>Products</span></h2>
+</div>
+<span class="product-count-badge" id="product-count">40 Products</span>
+</div>
+<div class="gold-divider reveal"><i class="fas fa-star"></i></div>
+<p class="section-desc reveal" style="margin-bottom:40px">From structural steel to hollow sections, wire products and steel plates — 40 premium product lines for all your construction and industrial needs.</p>
+<div class="products-tabs reveal">
+<button class="tab-btn active" onclick="filterProducts('all',this)"><span>All Products</span></button>
+<button class="tab-btn" onclick="filterProducts('steel',this)"><span>Structural Steel</span></button>
+<button class="tab-btn" onclick="filterProducts('hollow',this)"><span>Hollow Sections</span></button>
+<button class="tab-btn" onclick="filterProducts('wire',this)"><span>Wire Products</span></button>
+<button class="tab-btn" onclick="filterProducts('plates',this)"><span>Steel Plates</span></button>
+</div>
+<div class="products-grid" id="products-grid">
+<!-- ROOFING SHEETS -->
+<!-- STRUCTURAL STEEL -->
+<div class="product-card reveal stagger-1" data-cat="steel"><div class="product-card-overlay"></div><img alt="Rebars" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Rebars'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro13.png"/><div class="product-card-body"><h3>Roofings TMX 500 C (Rebars)</h3><p>High-strength deformed steel bars for reinforced concrete.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="steel"><div class="product-card-overlay"></div><img alt="I-Beams" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=I-Beams'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro59.png"/><div class="product-card-body"><h3>I-Beams (U Beams)</h3><p>Structural I-beams for bridges, buildings and heavy construction.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="steel"><div class="product-card-overlay"></div><img alt="C-Channels" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=C-Channels'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro60.png"/><div class="product-card-body"><h3>C-Channels (UPN)</h3><p>Hot-rolled UPN channels for frames and structural use.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-4" data-cat="steel"><div class="product-card-overlay"></div><img alt="IPE" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=IPE'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro3.png"/><div class="product-card-body"><h3>IPE / IPEAA</h3><p>European standard I-sections for structural steel frameworks.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-1" data-cat="steel"><div class="product-card-overlay"></div><img alt="Flat Bars" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Flat+Bars'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro58.png"/><div class="product-card-body"><h3>Flat Bars</h3><p>Hot-rolled flat steel bars for fabrication and brackets.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="steel"><div class="product-card-overlay"></div><img alt="Angles" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Angles'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro61.png"/><div class="product-card-body"><h3>Angles (Hot & Cold Rolled)</h3><p>Steel angles for frames, brackets and reinforcements.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="steel"><div class="product-card-overlay"></div><img alt="Round Bars" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Round+Bars'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro7.png"/><div class="product-card-body"><h3>Round Bars</h3><p>Solid mild steel round bars for shafts and general fabrication.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-4" data-cat="steel"><div class="product-card-overlay"></div><img alt="Hot Rolled Coils" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Hot+Rolled+Coils'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro2.png"/><div class="product-card-body"><h3>Hot Rolled Coils</h3><p>Primary steel coils for downstream processing.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-1" data-cat="steel"><div class="product-card-overlay"></div><img alt="Slited Coils" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Slited+Coils'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro67.png"/><div class="product-card-body"><h3>Slited Coils</h3><p>Precision-slit steel coils for roll forming applications.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="steel"><div class="product-card-overlay"></div><img alt="Guard Rails" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Guard+Rails'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro11.png"/><div class="product-card-body"><h3>Guard Rails</h3><p>W-beam highway guard rails for road safety.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="steel"><div class="product-card-overlay"></div><img alt="Super Grip BRC" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=BRC'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro6.png"/><div class="product-card-body"><h3>Super Grip BRC</h3><p>Welded fabric reinforcement mesh for slabs and concrete.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<!-- HOLLOW SECTIONS -->
+<div class="product-card reveal stagger-1" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Square Tubes" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Square+Tubes'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro46.png"/><div class="product-card-body"><h3>Square Tubes</h3><p>Hollow square sections for gates, grilles and frames.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Rectangular Tubes" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Rect+Tubes'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro48.png"/><div class="product-card-body"><h3>Rectangular Tubes</h3><p>Rectangle hollow sections for structural applications.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Round Tubes" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Round+Tubes'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro47.png"/><div class="product-card-body"><h3>Round Tubes</h3><p>Circular hollow sections for handrails and posts.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-4" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Thicker Hollow Sections" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Thicker+Hollow'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro9.png"/><div class="product-card-body"><h3>Thicker Hollow Sections</h3><p>Heavy-wall hollow sections for demanding structural use.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-1" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Single Door Frames" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Door+Frames'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro42.png"/><div class="product-card-body"><h3>Single Door Frames</h3><p>Pre-formed steel door frames for all construction types.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Double Door Frames" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Double+Door'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro5.png"/><div class="product-card-body"><h3>Double Door Frames</h3><p>Heavy-duty double door frames for commercial entry.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Z Purlins" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Z+Purlins'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro40.png"/><div class="product-card-body"><h3>Z Purlins</h3><p>Z-section purlins for roof and wall cladding support.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-4" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Fascia Boards" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Fascia+Boards'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro41.png"/><div class="product-card-body"><h3>Fascia Boards</h3><p>Steel and PVC fascia boards for roof eave finishing.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-1" data-cat="hollow"><div class="product-card-overlay"></div><img alt="PVC Fascia Board" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=PVC+Fascia'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro14.png"/><div class="product-card-body"><h3>PVC Fascia Board</h3><p>Weather-resistant PVC fascia for long-lasting roof edge protection.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Louvres" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Louvres'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro21.png"/><div class="product-card-body"><h3>Louvres</h3><p>Ventilation louvres for windows, walls and industrial buildings.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="hollow"><div class="product-card-overlay"></div><img alt="Bottle Sections" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Bottle+Sections'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro43.png"/><div class="product-card-body"><h3>Bottle Sections</h3><p>Specially profiled sections for purlins and secondary members.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<!-- WIRE PRODUCTS -->
+<div class="product-card reveal stagger-1" data-cat="wire"><div class="product-card-overlay"></div><img alt="Galvanized Wire" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Galv+Wire'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro1.png"/><div class="product-card-body"><h3>Galvanized Wire</h3><p>Hot-dip galvanized wire for fencing, binding and general use.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="wire"><div class="product-card-overlay"></div><img alt="Drawn Wire" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Drawn+Wire'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro4.png"/><div class="product-card-body"><h3>Drawn Wire</h3><p>Cold-drawn wire for nails, mesh and manufacturing uses.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="wire"><div class="product-card-overlay"></div><img alt="Plain Galvanized Wire" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Plain+Galv+Wire'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro54.png"/><div class="product-card-body"><h3>Plain Galvanized Wire</h3><p>Smooth galvanized wire in various gauges.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-4" data-cat="wire"><div class="product-card-overlay"></div><img alt="Barbed Wire" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Barbed+Wire'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro74.png"/><div class="product-card-body"><h3>Barbed Wire</h3><p>Two-strand galvanized barbed wire for perimeter security.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-1" data-cat="wire"><div class="product-card-overlay"></div><img alt="Razor Wire" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Razor+Wire'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro53.png"/><div class="product-card-body"><h3>Razor Wire</h3><p>High-security concertina and flat-wrap razor wire.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="wire"><div class="product-card-overlay"></div><img alt="Binding Wire" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Binding+Wire'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro56.png"/><div class="product-card-body"><h3>Binding Wire</h3><p>Annealed soft binding wire for tying rebar in construction.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="wire"><div class="product-card-overlay"></div><img alt="Wire Nails" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Wire+Nails'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro50.png"/><div class="product-card-body"><h3>Wire Nails</h3><p>Machine-cut wire nails in all sizes for construction.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-4" data-cat="wire"><div class="product-card-overlay"></div><img alt="U Ceiling Nails" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=U+Nails'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro52.png"/><div class="product-card-body"><h3>U / Ceiling Nails</h3><p>U-shaped staple nails for fixing cable, mesh and ceiling boards.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-1" data-cat="wire"><div class="product-card-overlay"></div><img alt="Chain Link" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Chain+Link'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro55.png"/><div class="product-card-body"><h3>Chain Link</h3><p>Galvanized chain link fencing in various heights and gauges.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="wire"><div class="product-card-overlay"></div><img alt="Welded Mesh" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Welded+Mesh'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro51.png"/><div class="product-card-body"><h3>Welded Mesh</h3><p>Electric-welded wire mesh panels for fencing and screens.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="wire"><div class="product-card-overlay"></div><img alt="Gabion Mesh" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Gabion+Mesh'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro15.png"/><div class="product-card-body"><h3>Welded Wire Mesh Gabion</h3><p>Heavy-gauge welded mesh gabion boxes for retaining walls.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<!-- STEEL PLATES -->
+<div class="product-card reveal stagger-1" data-cat="plates"><div class="product-card-overlay"></div><img alt="Thicker MS Plates" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Thicker+MS+Plates'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro57.png"/><div class="product-card-body"><h3>Thicker Mild Steel Plates</h3><p>Heavy-gauge MS plates for engineering and fabrication.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="plates"><div class="product-card-overlay"></div><img alt="Plain MS Plates" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Plain+MS+Plates'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro10.png"/><div class="product-card-body"><h3>Plain MS Plates</h3><p>Standard mild steel plates for general fabrication.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="plates"><div class="product-card-overlay"></div><img alt="Chequered MS Plates" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Chequered+Plates'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro17.png"/><div class="product-card-body"><h3>MS Plates Chequered</h3><p>Anti-slip chequered MS plates for flooring and ramps.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-4" data-cat="plates"><div class="product-card-overlay"></div><img alt="Embossed Plates" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Embossed+Plates'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro49.png"/><div class="product-card-body"><h3>Embossed Plates</h3><p>Patterned embossed steel plates for decorative applications.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-1" data-cat="plates"><div class="product-card-overlay"></div><img alt="CRC Plates" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=CRC+Plates'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro45.png"/><div class="product-card-body"><h3>CRC Plates</h3><p>Cold-rolled close-annealed plates for precision applications.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-2" data-cat="plates"><div class="product-card-overlay"></div><img alt="Door Plates" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Door+Plates'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro8.png"/><div class="product-card-body"><h3>Door Plates</h3><p>Sigma, Quadri, and Hexa patterned door plates.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<div class="product-card reveal stagger-3" data-cat="plates"><div class="product-card-overlay"></div><img alt="Expanded Metal" class="product-card-img" onerror="this.src='https://via.placeholder.com/300x190/f8f2ea/6B3A1F?text=Expanded+Metal'" src="https://www.roofingsgroup.com/media/.renditions/wysiwyg/Products/pro44.png"/><div class="product-card-body"><h3>Expanded Metal Lath</h3><p>Aluzinc and MS expanded metal for plastering and security.</p><div class="product-card-link">Enquire <i class="fas fa-arrow-right"></i></div></div></div>
+<!-- PIPES -->
+<!-- ACCESSORIES -->
+</div>
+<div class="reveal" style="margin-top:50px;text-align:center;">
+<a class="btn btn-gold" href="#contact"><i class="fas fa-envelope"></i> Enquire About Any Product</a>
+</div>
+</div>
+</section>
+<!-- SUSTAINABILITY -->
+<section id="sustainability">
+<div class="section-inner sustain-inner">
+<div class="section-eyebrow reveal"><div class="s-line" style="background:var(--gold)"></div><span class="section-tag">Our Commitment</span></div>
+<h2 class="section-title reveal" style="color:var(--white)">Building a <span>Sustainable</span> Future</h2>
+<div class="gold-divider reveal"><i class="fas fa-leaf"></i></div>
+<p class="section-desc reveal" style="color:rgba(255,255,255,.72)">At Majid Rizq General Hardware, sustainability is a core business value. We are committed to responsible sourcing, waste reduction, and supporting local communities across Uganda.</p>
+<div class="sustain-grid">
+<div class="sustain-card reveal stagger-1"><div class="sustain-icon"><i class="fas fa-leaf"></i></div><h3>Responsible Sourcing</h3><p>We partner with certified suppliers who adhere to ethical and environmental standards, ensuring our steel and materials are responsibly produced.</p></div>
+<div class="sustain-card reveal stagger-2"><div class="sustain-icon"><i class="fas fa-recycle"></i></div><h3>Waste Reduction</h3><p>Our operations are designed to minimize waste. We recycle offcuts and packaging materials, working to reduce our carbon footprint at every step.</p></div>
+<div class="sustain-card reveal stagger-3"><div class="sustain-icon"><i class="fas fa-hands-helping"></i></div><h3>Community Support</h3><p>We actively invest in local communities through employment, training programs, and supporting small construction businesses across Uganda.</p></div>
+</div>
+<div class="reveal" style="margin-top:48px;text-align:center">
+<a class="btn btn-gold" href="#contact"><i class="fas fa-seedling"></i> Learn About Our Initiatives</a>
+</div>
+</div>
+</section>
+<!-- NEWS -->
+<section id="news">
+<div class="section-inner">
+<div class="section-eyebrow reveal"><div class="s-line"></div><span class="section-tag">Latest Updates</span></div>
+<h2 class="section-title reveal">News & <span>Insights</span></h2>
+<div class="gold-divider reveal"><i class="fas fa-star"></i></div>
+<p class="section-desc reveal" style="margin-bottom:48px">Stay updated with the latest news, industry insights, and product launches from Majid Rizq General Hardware Ltd.</p>
+<div class="news-grid">
+<a class="news-card reveal stagger-1" href="#news"><div class="news-card-img-wrap"><img alt="News" class="news-card-img" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"/></div><div class="news-card-body"><div class="news-date">March 2026</div><h3>New Roofing Sheet Collection Now Available</h3><p>We're excited to announce our expanded range of colour-coated roofing sheets, featuring new profiles and colours to suit modern construction needs.</p></div></a>
+<a class="news-card reveal stagger-2" href="#news"><div class="news-card-img-wrap"><img alt="News" class="news-card-img" src="https://images.unsplash.com/photo-1590959651373-a3db0f38a961?w=600&q=80"/></div><div class="news-card-body"><div class="news-date">February 2026</div><h3>Delivery Network Expanded Across Uganda</h3><p>Our delivery network now covers all major districts in Uganda, ensuring faster and more reliable delivery of construction materials to your site.</p></div></a>
+<a class="news-card reveal stagger-3" href="#news"><div class="news-card-img-wrap"><img alt="News" class="news-card-img" src="https://images.unsplash.com/photo-1621905251189-08b45249d362?w=600&q=80"/></div><div class="news-card-body"><div class="news-date">January 2026</div><h3>Partnering with Local Builders for a Stronger Uganda</h3><p>Majid Rizq launches a new initiative to support small and medium construction businesses with affordable materials and flexible payment options.</p></div></a>
+</div>
+</div>
+</section>
+<!-- CAREERS -->
+<section id="careers">
+<div class="section-inner">
+<div class="section-eyebrow reveal"><div class="s-line"></div><span class="section-tag">Join Our Team</span></div>
+<h2 class="section-title reveal">Career <span>Opportunities</span></h2>
+<div class="gold-divider reveal"><i class="fas fa-star"></i></div>
+<p class="section-desc reveal">We are always looking for talented, passionate individuals to join the Majid Rizq family. Explore current openings below.</p>
+<div class="careers-grid">
+<div class="career-card reveal stagger-1"><span class="career-badge">Full Time</span><h3>Sales Representative</h3><p>Join our sales team to help businesses and contractors find the right hardware solutions. Strong communication skills required.</p><a class="btn btn-brown" href="#contact">Apply Now <i class="fas fa-arrow-right"></i></a></div>
+<div class="career-card reveal stagger-2"><span class="career-badge">Full Time</span><h3>Warehouse Supervisor</h3><p>Oversee daily warehouse operations, inventory management, and logistics coordination across our Kampala facilities.</p><a class="btn btn-brown" href="#contact">Apply Now <i class="fas fa-arrow-right"></i></a></div>
+<div class="career-card reveal stagger-3"><span class="career-badge">Contract</span><h3>Delivery Driver</h3><p>Responsible for safe and timely delivery of hardware materials to client sites across Uganda. Valid driving permit required.</p><a class="btn btn-brown" href="#contact">Apply Now <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</div>
+</section>
+<!-- SHOWROOM -->
+<section id="showroom">
+<div class="section-inner">
+<div class="section-eyebrow reveal"><div class="s-line" style="background:var(--gold)"></div><span class="section-tag">Visit Us</span></div>
+<h2 class="section-title reveal" style="color:var(--white)">Our Virtual <span>Showroom</span></h2>
+<div class="gold-divider reveal"><i class="fas fa-star"></i></div>
+<p class="section-desc reveal" style="color:rgba(255,255,255,.75)">Explore our full range of products in person at our Kampala showroom. Our expert team is ready to assist you with product selection and advice.</p>
+<div class="reveal" style="margin-top:28px;display:flex;gap:14px;flex-wrap:wrap">
+<a class="btn btn-gold" href="https://maps.app.goo.gl/HdeJLbb7DUCcqY7" rel="noopener" target="_blank"><i class="fas fa-map-marker-alt"></i> Get Directions</a>
+<a class="btn btn-outline" href="#products"><i class="fas fa-th-large"></i> Browse Products</a>
+</div>
+<div class="showroom-map reveal">
+<iframe allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=0.31520,32.57310&z=16&output=embed" style="border:0;width:100%;height:420px;display:block"></iframe>
+</div>
+</div>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+<div class="section-inner">
+<div class="section-eyebrow reveal"><div class="s-line"></div><span class="section-tag">Get In Touch</span></div>
+<h2 class="section-title reveal">Find <span>Us</span></h2>
+<div class="gold-divider reveal"><i class="fas fa-star"></i></div>
+<div class="contact-wrap">
+<div class="reveal-left">
+<div class="contact-info">
+<h3>We'd Love to Hear From You</h3>
+<div class="c-item"><div class="c-icon"><i class="fas fa-map-marker-alt"></i></div><div><h4>Address</h4><p>Plot 123, Industrial Area<br/>Kampala, Uganda</p></div></div>
+<div class="c-item"><div class="c-icon"><i class="fas fa-phone"></i></div><div><h4>Phone</h4><a href="tel:+256700000000">+256 753809585</a><br/><a href="tel:0702618396">+256 753809585(Toll Free)</a></div></div>
+<div class="c-item"><div class="c-icon"><i class="fas fa-envelope"></i></div><div><h4>Email</h4><a href="mailto:info@majidrizq.com">ssalimajid58@gmail.com</a><br/><a href="mailto:ssalimajid58@gmail.com">ssalimajid58@gmail.com</a></div></div>
+<div class="c-item"><div class="c-icon"><i class="fas fa-clock"></i></div><div><h4>Working Hours</h4><p>Mon – Fri: 8:00 AM – 6:00 PM<br/>Saturday: 8:00 AM – 2:00 PM</p></div></div>
+<div class="c-item"><div class="c-icon"><i class="fab fa-whatsapp"></i></div><div><h4>WhatsApp</h4><a href="https://wa.me/256753809585" target="_blank">+256 753809585</a></div></div>
+</div>
+</div>
+<div class="contact-form-box reveal-right">
+<h3>Send Us a Message</h3>
+<form action="https://formsubmit.co/ssalimajid58@gmail.com" id="contactForm" method="POST">
+<!-- FormSubmit config -->
+<input name="_subject" type="hidden" value="New Enquiry – Majid Rizq General Hardware"/>
+<input name="_captcha" type="hidden" value="false"/>
+<input name="_template" type="hidden" value="table"/>
+<input name="_next" type="hidden" value="https://ssalimajid58@gmail.comthank-you.html"/>
+<div class="form-row">
+<div class="form-group"><label>First Name *</label><input name="first_name" placeholder="John" required="" type="text"/></div>
+<div class="form-group"><label>Last Name *</label><input name="last_name" placeholder="Doe" required="" type="text"/></div>
+</div>
+<div class="form-group"><label>Email Address *</label><input name="email" placeholder="john@example.com" required="" type="email"/></div>
+<div class="form-group"><label>Phone Number</label><input name="phone" placeholder="+256 ..." type="tel"/></div>
+<div class="form-group"><label>Subject</label>
+<select name="subject">
+<option value="">Select a subject</option>
+<option>Product Inquiry</option>
+<option>Price Quote</option>
+<option>Delivery Request</option>
+<option>Partnership</option>
+<option>Other</option>
+</select>
+</div>
+<div class="form-group"><label>Message *</label><textarea name="message" placeholder="Tell us how we can help you..." required=""></textarea></div>
+<button class="btn btn-submit" id="submitBtn" type="submit">
+<i class="fas fa-paper-plane"></i> <span id="submitText">Send Message</span>
+</button>
+<div id="formMsg" style="display:none;margin-top:14px;padding:12px 16px;border-radius:4px;font-size:.9rem;font-weight:500"></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<div class="footer-inner">
+<div class="footer-brand">
+<div class="footer-brand-name">Majid Rizq</div>
+<div class="footer-brand-sub">General Hardware Ltd</div>
+<p>Your trusted partner for quality steel, roofing, and hardware solutions in Uganda and East Africa. Building stronger communities, one structure at a time.</p>
+<div class="footer-socials">
+<a class="social-btn" href="#"><i class="fab fa-facebook-f"></i></a>
+<a class="social-btn" href="#"><i class="fab fa-twitter"></i></a>
+<a class="social-btn" href="#"><i class="fab fa-linkedin-in"></i></a>
+<a class="social-btn" href="#"><i class="fab fa-instagram"></i></a>
+<a class="social-btn" href="https://wa.me/256753809585" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#products">Our Products</a></li>
+<li><a href="#about">Our Story</a></li>
+<li><a href="#sustainability">Sustainability</a></li>
+<li><a href="#news">News & Blog</a></li>
+<li><a href="#careers">Careers</a></li>
+<li><a href="#showroom">Showroom</a></li>
+<li><a href="#contact">Find Us</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Products</h4>
+<ul>
+<li><a href="#products" onclick="filterProducts('steel',null)">Structural Steel</a></li>
+<li><a href="#products" onclick="filterProducts('hollow',null)">Hollow Sections</a></li>
+<li><a href="#products" onclick="filterProducts('wire',null)">Wire Products</a></li>
+<li><a href="#products" onclick="filterProducts('plates',null)">Steel Plates</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Contact Us</h4>
+<div class="f-contact-item"><i class="fas fa-map-marker-alt"></i><span>Plot 123, Industrial Area, Kampala, Uganda</span></div>
+<div class="f-contact-item"><i class="fas fa-phone"></i><a href="tel:+256700000000">+256 753809585</a></div>
+<div class="f-contact-item"><i class="fas fa-phone-volume"></i><a href="tel:0800000000">+256 702618396 (Toll Free)</a></div>
+<div class="f-contact-item"><i class="fas fa-envelope"></i><a href="mailto:info@majidrizq.com">ssalimajid58@gmail.com/a></div>
+<div class="f-contact-item"><i class="fab fa-whatsapp"></i><a href="https://wa.me/256753809585" target="_blank">+256 753809585</a></div>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Majid Rizq General Hardware Ltd. All rights reserved.</span>
+<span><a href="#">Privacy Policy</a>  |  <a href="#">Terms & Conditions</a></span>
+</div>
+</footer>
+<a class="whatsapp-btn" href="https://wa.me/256753809585" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<a class="back-top" href="#home" id="backTop" title="Back to top"><i class="fas fa-chevron-up"></i></a>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
